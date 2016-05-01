@@ -1,8 +1,7 @@
-'use strict';
+'use strict'
 
-var moment = require('moment'),
-  checkAndUpdate = require('./check_and_update'),
-  interval = process.env.CHECK_INTERVALIN_MINUTES ? parseInt(process.env.CHECK_INTERVALIN_MINUTES) * 60 * 1000 : moment.duration(30, 'minutes').asMilliseconds();
+const checkAndUpdate = require('./check_and_update')
+const interval = parseInt(process.env.CHECK_INTERVALIN_MINUTES || 30) * 60 * 1000
 
-setInterval(checkAndUpdate, interval);
-checkAndUpdate();
+setInterval(checkAndUpdate, interval)
+checkAndUpdate()

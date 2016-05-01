@@ -7,20 +7,21 @@
     "url": "git://github.com/OronNadiv/pagerduty-services-scheduler.git"
   },
   "engines": {
-    "node": "^4",
-    "npm": "^2"
+    "node": "^6",
+    "npm": "^3"
   },
   "dependencies": {
-    "bluebird": "^2",
+    "bluebird": "^3",
     "moment": "^2",
-    "moment-timezone": "^0.4",
-    "request-promise": "^0.4",
+    "moment-timezone": "^0.5",
+    "request-promise": "^3",
     "underscore": "^1"
   },
   "devDependencies": {
-    "eslint": "*",
-    "eslint-plugin-mocha": "*",
-    "eslint-plugin-nodeca": "*"
+    "eslint": "^2",
+    "eslint-config-standard": "^5",
+    "eslint-plugin-promise": "^1",
+    "eslint-plugin-standard": "^1"
   },
   "scripts": {
     "lint": "eslint --ignore-path .gitignore ."
