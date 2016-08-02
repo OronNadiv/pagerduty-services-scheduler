@@ -1,5 +1,9 @@
 {
   "extends": "standard",
+  "plugins": [
+    "promise",
+    "standard"
+  ],
   "globals": {
     "describe": false,
     "it": false,

@@ -12,16 +12,16 @@
   },
   "dependencies": {
     "bluebird": "^3",
+    "debug": "^2.2.0",
+    "http-as-promised": "^1",
     "moment": "^2",
-    "moment-timezone": "^0.5",
-    "request-promise": "^3",
-    "underscore": "^1"
+    "moment-timezone": "^0.5"
   },
   "devDependencies": {
-    "eslint": "^2",
+    "eslint": "^3",
     "eslint-config-standard": "^5",
-    "eslint-plugin-promise": "^1",
-    "eslint-plugin-standard": "^1"
+    "eslint-plugin-promise": "^2",
+    "eslint-plugin-standard": "^2"
   },
   "scripts": {
     "lint": "eslint --ignore-path .gitignore ."
